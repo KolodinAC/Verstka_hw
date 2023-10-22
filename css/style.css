@@ -1,20 +1,20 @@
+body {
+  font-family: sans-serif;
+}
 a {
   text-decoration: none;
 }
-
 .nav_link {
   color: cornflowerblue;
   font-size: 16px;
   line-height: 20px;
 }
-
-.main-head {
+.title {
   color: #222222;
   font-size: 28px;
   line-height: 36px;
   font-weight: bold;
 }
-
 .texts {
   font-style: normal;
   font-weight: 300;
@@ -22,15 +22,13 @@ a {
   line-height: 30px;
   color: #7d7987;
 }
-
-.headers {
+.subtitle {
   color: coral;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 80px;
 }
-
 /* класс для списков на страничке контактов */
 .lists {
   font-style: normal;
@@ -38,4 +36,25 @@ a {
   font-size: 18px;
   line-height: 30px;
   color: #7d7987;
+}
+.catalog-photos {
+  border-radius: 10px;
+  width: 800px;
+}
+.form_input {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 1 px solid #ccc;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+.bt {
+  width: 101px;
+  height: 30px;
+  font-size: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
